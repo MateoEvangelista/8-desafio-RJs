@@ -1,0 +1,69 @@
+.App {
+  font-family: sans-serif;
+}
+/*---------------------------------------Nav----------------------------------*/
+.Navegacion {
+  display: flex;
+  background: #31cf9b;
+  min-height: 5vh;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.Link {
+  color: #000;
+  list-style: none;
+  font-size: 20px;
+}
+
+.Active {
+  background-color: red;
+  color: white;
+  list-style: none;
+}
+
+/*---------------------------------------Nav----------------------------------*/
+
+/*---------------------------------------CartWidget-Logo----------------------------------*/
+.imgCart {
+  height: auto;
+  width: auto;
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.imgLogo {
+  height: auto;
+  width: auto;
+  max-width: 30px;
+  max-height: 30px;
+}
+
+/*---------------------------------------CartWidget----------------------------------*/
+
+/*---------------------------------------ItemList----------------------------------*/
+.itemList {
+  font-family: "Courier New", Courier, monospace;
+  background-color: whitesmoke;
+  height: auto;
+  width: auto;
+  text-align: center;
+  padding: 5%;
+}
+
+.divCard {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
+
+.widgetButtons {
+  background-color: red;
+  border: none;
+}
+/*---------------------------------------ItemList----------------------------------*/
